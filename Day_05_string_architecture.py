@@ -1,0 +1,76 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNkH6kDa8k+MafJg+Q7Of59",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/arpitabansal-compbio/30-Days-Of-Python/blob/main/Day_05_string_architecture.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8rpKW4FgRWs5",
+        "outputId": "6ef95aee-14ff-47d1-9d88-3e6f67e6c537"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "First Name Box: Arpita\n",
+            "Last Name Box:  Bansal\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Section : Advanced String Architecture & Method Chaining\n",
+        "\n",
+        "# 1. Capture messy, unformatted investigator input\n",
+        "raw_input = \"   arpita bansal   \"\n",
+        "\n",
+        "# 2. Method Chaining: Strip spaces AND apply Title Case in one single line!\n",
+        "cleaned_name = raw_input.strip().title()\n",
+        "\n",
+        "# 3. Split Protocol: Chop the clean name into separate variable boxes\n",
+        "first_name, last_name = cleaned_name.split()\n",
+        "\n",
+        "# 4. Print clean structured diagnostic variables using F-strings\n",
+        "print(f\"First Name Box: {first_name}\")\n",
+        "print(f\"Last Name Box:  {last_name}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "zpMHZRD4XXzf"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}

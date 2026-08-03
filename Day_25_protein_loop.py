@@ -1,5 +1,5 @@
 # ==============================================================================
-# DAY 28 : PORTFOLIO SPRINT: HANDWRITTEN PROTEIN SEQUENCE LOOP CHECKER
+# DAY 25 : PORTFOLIO SPRINT: HANDWRITTEN PROTEIN SEQUENCE LOOP CHECKER
 # ==============================================================================
 
 # Takes input of a protein sequence and a target amino acid. Also clean and normalise the raw inputs. 

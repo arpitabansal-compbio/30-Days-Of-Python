@@ -1,1 +1,1 @@
-watched lecture 4 to 6 
+watched Cs50 lectures  
